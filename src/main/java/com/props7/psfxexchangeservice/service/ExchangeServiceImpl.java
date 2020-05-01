@@ -1,6 +1,7 @@
 package com.props7.psfxexchangeservice.service;
 
 import com.props7.psfxexchangeservice.model.ExchangeCurrency;
+import com.props7.psfxexchangeservice.provider.ExchangeCurrencyProviderImpl;
 import javafx.util.Pair;
 import org.springframework.stereotype.Service;
 

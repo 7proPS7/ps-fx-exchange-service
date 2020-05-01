@@ -1,4 +1,4 @@
-package com.props7.psfxexchangeservice.service;
+package com.props7.psfxexchangeservice.provider;
 
 import javafx.util.Pair;
 import org.springframework.stereotype.Service;
