@@ -8,7 +8,7 @@ import javax.money.MonetaryAmount;
 import java.util.Random;
 
 @Service
-public class ExchangeCurrencyProviderImpl implements ExchangeProvider<Pair<MonetaryAmount, MonetaryAmount>> {
+public class MoneyRateProviderImpl implements RateProvider<Pair<MonetaryAmount, MonetaryAmount>> {
     @Override
     public Pair<MonetaryAmount, MonetaryAmount> provide(final String originalCurrency, final String targetCurrency) {
         return new Pair<>(

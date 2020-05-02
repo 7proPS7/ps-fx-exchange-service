@@ -1,5 +1,5 @@
 package com.props7.psfxexchangeservice.provider;
 
-public interface ExchangeProvider<T> {
+public interface RateProvider<T> {
     T provide(final String original, final String target);
 }
