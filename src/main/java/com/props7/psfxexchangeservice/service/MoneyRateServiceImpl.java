@@ -32,8 +32,11 @@ public class MoneyRateServiceImpl implements RateService {
     }
 
     @Override
-    public MoneyRate findRate(String origin) {
-        return new MoneyRate(origin, new BigDecimal("123"));
+    public MoneyRate findRate(String original) {
+        return MoneyRate.builder()
+                .orinal(original)
+                .originalAmount(new BigDecimal("123"))
+                .build();
     }
 
     @Override

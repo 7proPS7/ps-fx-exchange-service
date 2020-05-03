@@ -7,7 +7,7 @@ import java.math.BigDecimal;
 public interface RateService {
     MoneyRate findRates(String original, String target);
 
-    MoneyRate findRate(String origin);
+    MoneyRate findRate(String original);
 
     void add(String original, BigDecimal originalAmount, String target, BigDecimal targetAmount);
 }
